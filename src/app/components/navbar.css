@@ -1,0 +1,87 @@
+/* General Reset */
+body, html, div, a, header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff; /* Add your desired background color */
+    border-bottom: 1px solid #ddd; /* Optional: Adds a subtle bottom border */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icons svg {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333; /* Text color */
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007BFF; /* Change color on hover */
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .header {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+      flex: 100%;
+    }
+  
+    .icons {
+      order: 2;
+      margin-top: 10px;
+    }
+  
+    .nav {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      flex: 100%;
+      margin-top: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .nav-link {
+      font-size: 14px;
+    }
+  
+    .icons svg {
+      font-size: 18px;
+    }
+  
+    .logo {
+      font-size: 20px;
+    }
+  }
+  
