@@ -89,11 +89,10 @@ export default function Footer() {
           <div className="payment-section">
             <h3 className="footer-title">ACCEPTS</h3>
             <div className="payment-methods">
-              <img src="/visa.svg" alt="Visa" />
-              <img src="/mastercard.svg" alt="Mastercard" />
-              <img src="/amex.svg" alt="American Express" />
-              <img src="/paypal.svg" alt="PayPal" />
-              <img src="/shop-pay.svg" alt="Shop Pay" />
+              <img src="https://www.svgrepo.com/show/328144/visa.svg" alt="Visa" />
+              <img src="https://www.svgrepo.com/show/328141/mastercard.svg" alt="Mastercard" />
+              <img src="https://www.svgrepo.com/show/328145/paypal.svg" alt="PayPal" />
+              
             </div>
           </div>
         </div>

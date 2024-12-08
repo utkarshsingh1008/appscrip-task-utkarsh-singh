@@ -1,4 +1,4 @@
-/* General Reset */
+
 body, html, div, a, header {
     margin: 0;
     padding: 0;
@@ -10,8 +10,8 @@ body, html, div, a, header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #fff; /* Add your desired background color */
-    border-bottom: 1px solid #ddd; /* Optional: Adds a subtle bottom border */
+    background-color: #fff; 
+    border-bottom: 1px solid #ddd;
   }
   
   .logo {
@@ -36,13 +36,13 @@ body, html, div, a, header {
   
   .nav-link {
     text-decoration: none;
-    color: #333; /* Text color */
+    color: #333; 
     font-size: 16px;
     transition: color 0.3s ease;
   }
   
   .nav-link:hover {
-    color: #007BFF; /* Change color on hover */
+    color: #007BFF; 
   }
   
   /* Responsive Design */

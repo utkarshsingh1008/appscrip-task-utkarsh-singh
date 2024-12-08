@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import './main.css';
+import './product.css';
 const ProductList = () => {
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
